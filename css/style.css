@@ -1,0 +1,114 @@
+.novedades{
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 1%;
+    color: antiquewhite;
+  }
+  .estreno{
+    margin: 3%;
+    padding: 1%;
+    background-color: aliceblue;
+  }
+  body{
+    background-color: rgb(84, 44, 105);
+  }
+.pestreno{
+  padding: 2%;
+  margin-top: 3%;
+}
+.col{
+margin-top: 3%;
+}
+.perri1{
+  padding: 0%;
+  margin: 7%;
+  margin-top: 2%;
+}
+.dondedonde{
+  width: 700px;
+  height: 700px;
+margin-left: 20%;
+margin-top: 2%;
+}
+.ubi{
+  font-family: "Freeman", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: antiquewhite;
+}
+.pacientestit{
+  font-family: "Freeman", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 1%;
+    color: antiquewhite;
+}
+.donde{
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  margin-top: 1%;
+  color: antiquewhite;
+}
+.parraf{
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0%;
+  padding: 0%;
+  margin-top: 1%;
+  color: antiquewhite;
+}
+.marcafoto{
+text-align: center;
+}
+.marcasfondo{
+  background-color: aliceblue;
+}
+.marcastxt{
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  margin-top: 1%;
+  color: rgb(0, 0, 0);
+}
+.formulario{
+  background-color: aliceblue;
+  margin-top: 1%;
+  margin-right: 3%;
+  margin-left: 3%;
+  padding: 3%;
+}
+.frase1{
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 3%;
+  margin-left: 32%;
+  color: rgb(255, 255, 255);
+}
+.frase{
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: antiquewhite;
+}
+.frase3{
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+}
