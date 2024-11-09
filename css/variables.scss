@@ -1,0 +1,93 @@
+// Variables
+$font-family-main: "Freeman", sans-serif;
+$antiquewhite: #faebd7;
+$aliceblue: #f0f8ff;
+$main-bg-color: rgb(84, 44, 105);
+
+// Mixins
+@mixin font-style($weight, $color: $antiquewhite) {
+  font-family: $font-family-main, sans-serif;
+  font-weight: $weight;
+  font-style: normal;
+  color: $color;
+  margin: 0;
+  padding: 0;
+  margin-top: 1%;
+}
+
+// General styles
+body {
+  background-color: $main-bg-color;
+}
+
+// Component styles
+.novedades, .pacientestit, .donde, .parraf, .ubi {
+  @include font-style(400);
+  text-align: center;
+}
+
+.pacientestit {
+  @include font-style(700);
+}
+
+.ubi {
+  @include font-style(300);
+}
+
+.donde, .parraf {
+  @include font-style(400);
+}
+
+.estreno, .marcasfondo, .formulario {
+  background-color: $aliceblue;
+  margin: 3%;
+  padding: 1%;
+}
+
+.pestreno, .col {
+  padding: 2%;
+  margin-top: 3%;
+}
+
+.perri1 {
+  padding: 0%;
+  margin: 7%;
+  margin-top: 2%;
+}
+
+.dondedonde {
+  width: 700px;
+  height: 700px;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.marcafoto, .marcastxt {
+  text-align: center;
+}
+
+.marcastxt {
+  @include font-style(400, black);
+}
+
+.formulario {
+  background-color: $aliceblue;
+  margin-top: 1%;
+  margin-right: 3%;
+  margin-left: 3%;
+  padding: 3%;
+}
+
+.frase1 {
+  @include font-style(400, white);
+  margin-top: 3%;
+  margin-left: 32%;
+}
+
+.frase {
+  @include font-style(400);
+}
+
+.frase3 {
+  @include font-style(400, black);
+}
